@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  TestCartPage</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestCartPage</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 04 16:25:54 PST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4593 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.testCartPage.addProductsToCart()'><b>addProductsToCart</b><br>Test class: test.testCartPage<br/>
+<a href="#Output-665512315" onClick='toggleBox("Output-665512315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-665512315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-665512315">
+multiple products added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.testCartPage@3023df74</td></tr>
+<tr>
+<td title='test.testCartPage.checkActualPrices()'><b>checkActualPrices</b><br>Test class: test.testCartPage<br/>
+<a href="#Output-1317963297" onClick='toggleBox("Output-1317963297", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1317963297" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1317963297">
+Actual stuffed frog price is correct 10.99<br/>
+Actual fluffy bunny price is correct 9.99<br/>
+Actual valentine bear price is correct 14.99<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.testCartPage@3023df74</td></tr>
+<tr>
+<td title='test.testCartPage.checkActualSubTotals()'><b>checkActualSubTotals</b><br>Test class: test.testCartPage<br/>
+<a href="#Output-1929284175" onClick='toggleBox("Output-1929284175", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1929284175" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1929284175">
+Actual stuffed frog subtotal is correct 21.98<br/>
+Actual fluffy bunny subtotal is correct 49.95<br/>
+Actual valentine bear subtotal is correct 44.97<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.testCartPage@3023df74</td></tr>
+<tr>
+<td title='test.testCartPage.computeTotalPrice()'><b>computeTotalPrice</b><br>Test class: test.testCartPage<br/>
+<a href="#Output-131301148" onClick='toggleBox("Output-131301148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131301148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131301148">
+correct total amount 116.9<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.testCartPage@3023df74</td></tr>
+<tr>
+<td title='test.testCartPage.navigateToShop()'><b>navigateToShop</b><br>Test class: test.testCartPage<br/>
+<a href="#Output-467401150" onClick='toggleBox("Output-467401150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-467401150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-467401150">
+navigate to contact us<br/>
+navigated to shop page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.testCartPage@3023df74</td></tr>
+</table><p>
+</body>
+</html>

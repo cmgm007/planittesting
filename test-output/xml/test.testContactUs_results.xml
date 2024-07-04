@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="90.636">
+    <properties></properties>
+
+
+
+            <testcase
+                name="navigateToContactUs"
+                time="0.071"
+                classname="test.testContactUs">
+            </testcase>
+            <testcase
+                name="fillUpRequiredFields"
+                time="90.269"
+                classname="test.testContactUs">
+            </testcase>
+            <testcase
+                name="verifyErrorMessages"
+                time="0.296"
+                classname="test.testContactUs">
+            </testcase>
+</testsuite>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[navigate to contact us]]>
+    </line>
+    <line>
+      <![CDATA[navigated to contact us page]]>
+    </line>
+    <line>
+      <![CDATA[click submit button]]>
+    </line>
+    <line>
+      <![CDATA[clicked submit button]]>
+    </line>
+    <line>
+      <![CDATA[checking if the following elements are displayed]]>
+    </line>
+    <line>
+      <![CDATA[error messages are displayed]]>
+    </line>
+    <line>
+      <![CDATA[checking if the following elements are not displayed]]>
+    </line>
+    <line>
+      <![CDATA[error messages are not displayed]]>
+    </line>
+    <line>
+      <![CDATA[navigate to contact us]]>
+    </line>
+    <line>
+      <![CDATA[navigated to contact us page]]>
+    </line>
+    <line>
+      <![CDATA[navigate to contact us]]>
+    </line>
+    <line>
+      <![CDATA[navigated to shop page]]>
+    </line>
+    <line>
+      <![CDATA[multiple products added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Actual stuffed frog price is correct 10.99]]>
+    </line>
+    <line>
+      <![CDATA[Actual fluffy bunny price is correct 9.99]]>
+    </line>
+    <line>
+      <![CDATA[Actual valentine bear price is correct 14.99]]>
+    </line>
+    <line>
+      <![CDATA[Actual stuffed frog subtotal is correct 21.98]]>
+    </line>
+    <line>
+      <![CDATA[Actual fluffy bunny subtotal is correct 49.95]]>
+    </line>
+    <line>
+      <![CDATA[Actual valentine bear subtotal is correct 44.97]]>
+    </line>
+    <line>
+      <![CDATA[correct total amount 116.9]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-04T17:03:07 PST" name="Suite" finished-at="2024-07-04T17:04:53 PST" duration-ms="105680">
+    <groups>
+    </groups>
+    <test started-at="2024-07-04T17:03:07 PST" name="Test" finished-at="2024-07-04T17:04:53 PST" duration-ms="105680">
+      <class name="test.testContactUs">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.testContactUs@710f4dc7]" started-at="2024-07-04T17:03:07 PST" name="beforeTest" finished-at="2024-07-04T17:03:10 PST" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:test.testContactUs@710f4dc7]" started-at="2024-07-04T17:03:10 PST" name="BeforeClass" finished-at="2024-07-04T17:03:10 PST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="navigateToContactUs()[pri:1, instance:test.testContactUs@710f4dc7]" started-at="2024-07-04T17:03:10 PST" name="navigateToContactUs" finished-at="2024-07-04T17:03:10 PST" duration-ms="71" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[navigate to contact us]]>
+            </line>
+            <line>
+              <![CDATA[navigated to contact us page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToContactUs -->
+        <test-method signature="verifyErrorMessages()[pri:2, instance:test.testContactUs@710f4dc7]" started-at="2024-07-04T17:03:10 PST" name="verifyErrorMessages" finished-at="2024-07-04T17:03:10 PST" depends-on-methods="test.testContactUs.navigateToContactUs" duration-ms="296" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click submit button]]>
+            </line>
+            <line>
+              <![CDATA[clicked submit button]]>
+            </line>
+            <line>
+              <![CDATA[checking if the following elements are displayed]]>
+            </line>
+            <line>
+              <![CDATA[error messages are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessages -->
+        <test-method signature="fillUpRequiredFields()[pri:3, instance:test.testContactUs@710f4dc7]" started-at="2024-07-04T17:03:10 PST" name="fillUpRequiredFields" finished-at="2024-07-04T17:04:40 PST" depends-on-methods="test.testContactUs.verifyErrorMessages" duration-ms="90269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checking if the following elements are not displayed]]>
+            </line>
+            <line>
+              <![CDATA[error messages are not displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillUpRequiredFields -->
+        <test-method is-config="true" signature="afterTesT()[pri:0, instance:test.testContactUs@710f4dc7]" started-at="2024-07-04T17:04:52 PST" name="afterTesT" finished-at="2024-07-04T17:04:53 PST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTesT -->
+      </class> <!-- test.testContactUs -->
+      <class name="test.testContactUsSubmission">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:test.testContactUsSubmission@fa4c865]" started-at="2024-07-04T17:04:40 PST" name="BeforeClass" finished-at="2024-07-04T17:04:40 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="navigateToContactUs()[pri:1, instance:test.testContactUsSubmission@fa4c865]" started-at="2024-07-04T17:04:40 PST" name="navigateToContactUs" finished-at="2024-07-04T17:04:41 PST" duration-ms="55" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[navigate to contact us]]>
+            </line>
+            <line>
+              <![CDATA[navigated to contact us page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToContactUs -->
+        <test-method signature="fillUpRequiredFields()[pri:2, instance:test.testContactUsSubmission@fa4c865]" started-at="2024-07-04T17:04:41 PST" name="fillUpRequiredFields" finished-at="2024-07-04T17:04:51 PST" depends-on-methods="test.testContactUsSubmission.navigateToContactUs" duration-ms="10508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillUpRequiredFields -->
+      </class> <!-- test.testContactUsSubmission -->
+      <class name="test.testCartPage">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:test.testCartPage@247bddad]" started-at="2024-07-04T17:04:51 PST" name="BeforeClass" finished-at="2024-07-04T17:04:51 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="navigateToShop()[pri:1, instance:test.testCartPage@247bddad]" started-at="2024-07-04T17:04:51 PST" name="navigateToShop" finished-at="2024-07-04T17:04:51 PST" duration-ms="303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[navigate to contact us]]>
+            </line>
+            <line>
+              <![CDATA[navigated to shop page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToShop -->
+        <test-method signature="addProductsToCart()[pri:2, instance:test.testCartPage@247bddad]" started-at="2024-07-04T17:04:51 PST" name="addProductsToCart" finished-at="2024-07-04T17:04:52 PST" depends-on-methods="test.testCartPage.navigateToShop" duration-ms="596" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[multiple products added to cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductsToCart -->
+        <test-method signature="checkActualPrices()[pri:3, instance:test.testCartPage@247bddad]" started-at="2024-07-04T17:04:52 PST" name="checkActualPrices" finished-at="2024-07-04T17:04:52 PST" depends-on-methods="test.testCartPage.addProductsToCart" duration-ms="264" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual stuffed frog price is correct 10.99]]>
+            </line>
+            <line>
+              <![CDATA[Actual fluffy bunny price is correct 9.99]]>
+            </line>
+            <line>
+              <![CDATA[Actual valentine bear price is correct 14.99]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkActualPrices -->
+        <test-method signature="checkActualSubTotals()[pri:4, instance:test.testCartPage@247bddad]" started-at="2024-07-04T17:04:52 PST" name="checkActualSubTotals" finished-at="2024-07-04T17:04:52 PST" depends-on-methods="test.testCartPage.addProductsToCart" duration-ms="132" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual stuffed frog subtotal is correct 21.98]]>
+            </line>
+            <line>
+              <![CDATA[Actual fluffy bunny subtotal is correct 49.95]]>
+            </line>
+            <line>
+              <![CDATA[Actual valentine bear subtotal is correct 44.97]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkActualSubTotals -->
+        <test-method signature="computeTotalPrice()[pri:5, instance:test.testCartPage@247bddad]" started-at="2024-07-04T17:04:52 PST" name="computeTotalPrice" finished-at="2024-07-04T17:04:52 PST" depends-on-methods="test.testCartPage.checkActualSubTotals" duration-ms="77" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[correct total amount 116.9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- computeTotalPrice -->
+      </class> <!-- test.testCartPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

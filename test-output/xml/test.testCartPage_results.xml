@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.372">
+    <properties></properties>
+
+
+
+            <testcase
+                name="checkActualSubTotals"
+                time="0.132"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="computeTotalPrice"
+                time="0.077"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="navigateToShop"
+                time="0.303"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="addProductsToCart"
+                time="0.596"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="checkActualPrices"
+                time="0.264"
+                classname="test.testCartPage">
+            </testcase>
+</testsuite>

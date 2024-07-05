@@ -4,34 +4,34 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.372">
+           time="1.647">
     <properties></properties>
 
 
 
             <testcase
-                name="checkActualSubTotals"
-                time="0.132"
-                classname="test.testCartPage">
-            </testcase>
-            <testcase
-                name="computeTotalPrice"
-                time="0.077"
-                classname="test.testCartPage">
-            </testcase>
-            <testcase
-                name="navigateToShop"
-                time="0.303"
-                classname="test.testCartPage">
-            </testcase>
-            <testcase
                 name="addProductsToCart"
-                time="0.596"
+                time="0.612"
                 classname="test.testCartPage">
             </testcase>
             <testcase
                 name="checkActualPrices"
-                time="0.264"
+                time="0.290"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="checkActualSubTotals"
+                time="0.164"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="computeTotalPrice"
+                time="0.095"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="navigateToShop"
+                time="0.486"
                 classname="test.testCartPage">
             </testcase>
 </testsuite>

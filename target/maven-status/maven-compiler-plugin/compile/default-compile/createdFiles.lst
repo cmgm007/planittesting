@@ -1,0 +1,10 @@
+test\BaseTest.class
+test\testCartPage.class
+pageObjects\BasePage.class
+test\testContactUsSubmission.class
+pageObjects\CartPage.class
+pageObjects\HomePage.class
+pageObjects\ShopPage.class
+resources\base.class
+pageObjects\ContactUsPage.class
+test\testContactUs.class

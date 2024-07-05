@@ -4,24 +4,24 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="90.636">
+           time="90.692">
     <properties></properties>
 
 
 
             <testcase
-                name="navigateToContactUs"
-                time="0.071"
+                name="verifyErrorMessages"
+                time="0.285"
                 classname="test.testContactUs">
             </testcase>
             <testcase
                 name="fillUpRequiredFields"
-                time="90.269"
+                time="90.335"
                 classname="test.testContactUs">
             </testcase>
             <testcase
-                name="verifyErrorMessages"
-                time="0.296"
+                name="navigateToContactUs"
+                time="0.072"
                 classname="test.testContactUs">
             </testcase>
 </testsuite>

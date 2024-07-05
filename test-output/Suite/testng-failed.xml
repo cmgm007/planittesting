@@ -3,6 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="test.testContactUsSubmission">
+        <methods>
+          <include name="navigateToContactUs"/>
+          <include name="afterTesT"/>
+          <include name="fillUpRequiredFields"/>
+          <include name="beforeTest"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- test.testContactUsSubmission -->
       <class name="test.testCartPage">
         <methods>
           <include name="checkActualSubTotals"/>
@@ -15,6 +24,16 @@
           <include name="checkActualPrices"/>
         </methods>
       </class> <!-- test.testCartPage -->
+      <class name="test.testContactUs">
+        <methods>
+          <include name="navigateToContactUs"/>
+          <include name="afterTesT"/>
+          <include name="fillUpRequiredFields"/>
+          <include name="BeforeClass"/>
+          <include name="beforeTest"/>
+          <include name="verifyErrorMessages"/>
+        </methods>
+      </class> <!-- test.testContactUs -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -167,7 +167,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.testContactUs</span>
+              <span class="class-name">test.testContactUsSubmission</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -182,13 +182,6 @@
                   <a name="navigateToContactUs">
                   </a> <!-- navigateToContactUs -->
                   <span class="method-name">navigateToContactUs</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyErrorMessages">
-                  </a> <!-- verifyErrorMessages -->
-                  <span class="method-name">verifyErrorMessages</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,7 +232,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.testContactUsSubmission</span>
+              <span class="class-name">test.testContactUs</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -254,6 +247,13 @@
                   <a name="navigateToContactUs">
                   </a> <!-- navigateToContactUs -->
                   <span class="method-name">navigateToContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyErrorMessages">
+                  </a> <!-- verifyErrorMessages -->
+                  <span class="method-name">verifyErrorMessages</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -316,43 +316,43 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'fillUpRequiredFields')
 data.setCell(0, 2, 'test.testContactUs')
-data.setCell(0, 3, 90269);
+data.setCell(0, 3, 90335);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'fillUpRequiredFields')
 data.setCell(1, 2, 'test.testContactUsSubmission')
-data.setCell(1, 3, 10508);
+data.setCell(1, 3, 4759);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addProductsToCart')
 data.setCell(2, 2, 'test.testCartPage')
-data.setCell(2, 3, 596);
+data.setCell(2, 3, 612);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'navigateToShop')
 data.setCell(3, 2, 'test.testCartPage')
-data.setCell(3, 3, 303);
+data.setCell(3, 3, 486);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyErrorMessages')
-data.setCell(4, 2, 'test.testContactUs')
-data.setCell(4, 3, 296);
+data.setCell(4, 1, 'checkActualPrices')
+data.setCell(4, 2, 'test.testCartPage')
+data.setCell(4, 3, 290);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkActualPrices')
-data.setCell(5, 2, 'test.testCartPage')
-data.setCell(5, 3, 264);
+data.setCell(5, 1, 'verifyErrorMessages')
+data.setCell(5, 2, 'test.testContactUs')
+data.setCell(5, 3, 285);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'checkActualSubTotals')
 data.setCell(6, 2, 'test.testCartPage')
-data.setCell(6, 3, 132);
+data.setCell(6, 3, 164);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'computeTotalPrice')
 data.setCell(7, 2, 'test.testCartPage')
-data.setCell(7, 3, 77);
+data.setCell(7, 3, 95);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'navigateToContactUs')
 data.setCell(8, 2, 'test.testContactUs')
-data.setCell(8, 3, 71);
+data.setCell(8, 3, 72);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'navigateToContactUs')
 data.setCell(9, 2, 'test.testContactUsSubmission')
-data.setCell(9, 3, 55);
+data.setCell(9, 3, 58);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -368,6 +368,36 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductsToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">multiple products added to cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyErrorMessages</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">click submit button</span>
+                <span class="reporter-method-output">clicked submit button</span>
+                <span class="reporter-method-output">checking if the following elements are displayed</span>
+                <span class="reporter-method-output">error messages are displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fillUpRequiredFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">checking if the following elements are not displayed</span>
+                <span class="reporter-method-output">error messages are not displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkActualPrices</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Actual stuffed frog price is correct 10.99</span>
+                <span class="reporter-method-output">Actual fluffy bunny price is correct 9.99</span>
+                <span class="reporter-method-output">Actual valentine bear price is correct 14.99</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">navigateToContactUs</span>
               <div class="reporter-method-output-div">
@@ -390,20 +420,6 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">navigateToContactUs</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">navigate to contact us</span>
-                <span class="reporter-method-output">navigated to contact us page</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">fillUpRequiredFields</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">checking if the following elements are not displayed</span>
-                <span class="reporter-method-output">error messages are not displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">navigateToShop</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">navigate to contact us</span>
@@ -411,26 +427,10 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addProductsToCart</span>
+              <span class="reporter-method-name">navigateToContactUs</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">multiple products added to cart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyErrorMessages</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">click submit button</span>
-                <span class="reporter-method-output">clicked submit button</span>
-                <span class="reporter-method-output">checking if the following elements are displayed</span>
-                <span class="reporter-method-output">error messages are displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">checkActualPrices</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Actual stuffed frog price is correct 10.99</span>
-                <span class="reporter-method-output">Actual fluffy bunny price is correct 9.99</span>
-                <span class="reporter-method-output">Actual valentine bear price is correct 14.99</span>
+                <span class="reporter-method-output">navigate to contact us</span>
+                <span class="reporter-method-output">navigated to contact us page</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -441,7 +441,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">test.testCartPage</span>
+              <span class="ignored-class-name">test.testContactUsSubmission</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterTesT</span>
                 <br/>
@@ -450,7 +450,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">test.testContactUsSubmission</span>
+              <span class="ignored-class-name">test.testCartPage</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterTesT</span>
                 <br/>
@@ -473,68 +473,68 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">BeforeClass</span>
-                <span class="method-start">2923 ms</span>
+                <span class="method-start">2712 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToContactUs</span>
-                <span class="method-start">2946 ms</span>
+                <span class="method-start">2734 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyErrorMessages</span>
-                <span class="method-start">3019 ms</span>
+                <span class="method-start">2809 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fillUpRequiredFields</span>
-                <span class="method-start">3316 ms</span>
+                <span class="method-start">3096 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.testContactUsSubmission</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">BeforeClass</span>
-                <span class="method-start">93586 ms</span>
+                <span class="method-start">93433 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToContactUs</span>
-                <span class="method-start">93587 ms</span>
+                <span class="method-start">93434 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">fillUpRequiredFields</span>
-                <span class="method-start">93643 ms</span>
+                <span class="method-start">93493 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.testCartPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">BeforeClass</span>
-                <span class="method-start">104152 ms</span>
+                <span class="method-start">98252 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToShop</span>
-                <span class="method-start">104155 ms</span>
+                <span class="method-start">98256 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addProductsToCart</span>
-                <span class="method-start">104460 ms</span>
+                <span class="method-start">98744 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkActualPrices</span>
-                <span class="method-start">105057 ms</span>
+                <span class="method-start">99357 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkActualSubTotals</span>
-                <span class="method-start">105322 ms</span>
+                <span class="method-start">99648 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">computeTotalPrice</span>
-                <span class="method-start">105455 ms</span>
+                <span class="method-start">99812 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.testContactUs</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTesT</span>
-                <span class="method-start">105533 ms</span>
+                <span class="method-start">99908 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

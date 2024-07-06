@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="0.000">
+    <properties></properties>
+
+
+            <testcase
+                name="BeforeClass"
+                time="0.0"
+                classname="test.testContactUs">
+            </testcase>
+            <testcase
+                name="fillUpRequiredFields"
+                time="0.0"
+                classname="test.testContactUs">
+            </testcase>
+            <testcase
+                name="navigateToContactUs"
+                time="0.0"
+                classname="test.testContactUs">
+            </testcase>
+            <testcase
+                name="verifyErrorMessages"
+                time="0.0"
+                classname="test.testContactUs">
+            </testcase>
+
+</testsuite>

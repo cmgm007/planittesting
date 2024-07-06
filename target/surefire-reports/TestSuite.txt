@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 14, Time elapsed: 1.801 s <<< FAILURE! - in TestSuite
+beforeTest(test.testCartPage)  Time elapsed: 1.448 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:63033/devtools/browser/82871f29-6831-46ca-9abb-09cd3e515b74
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-HG6IJS9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: ChromeDriver
+

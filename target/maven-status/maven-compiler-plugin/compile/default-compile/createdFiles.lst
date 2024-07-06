@@ -1,10 +1,6 @@
-test\BaseTest.class
-test\testCartPage.class
+resources\base.class
 pageObjects\BasePage.class
-test\testContactUsSubmission.class
+pageObjects\ContactUsPage.class
 pageObjects\CartPage.class
 pageObjects\HomePage.class
 pageObjects\ShopPage.class
-resources\base.class
-pageObjects\ContactUsPage.class
-test\testContactUs.class

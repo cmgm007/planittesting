@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="8"
+           failures="1"
+           errors="0"
+           skipped="7"
+           time="1.179">
+    <properties></properties>
+
+            <testcase
+                name="beforeTest"
+                time="1.178"
+                classname="test.testCartPage">
+
+            <failure type="org.openqa.selenium.remote.http.ConnectionFailedException" message="Unable to establish websocket connection to http://localhost:63033/devtools/browser/82871f29-6831-46ca-9abb-09cd3e515b74
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-HG6IJS9&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: driver.version: ChromeDriver">
+                <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:63033/devtools/browser/82871f29-6831-46ca-9abb-09cd3e515b74
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-HG6IJS9', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: ChromeDriver
+                org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:118)org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)java.base/java.util.Optional.map(Optional.java:260)org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)test.BaseTest.beforeTest(BaseTest.java:21)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)org.testng.TestRunner.beforeRun(TestRunner.java:644)org.testng.TestRunner.run(TestRunner.java:610)org.testng.SuiteRunner.runTest(SuiteRunner.java:421)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)org.testng.SuiteRunner.run(SuiteRunner.java:312)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)org.testng.TestNG.runSuitesLocally(TestNG.java:1208)org.testng.TestNG.runSuites(TestNG.java:1112)org.testng.TestNG.run(TestNG.java:1079)org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="afterTesT"
+                time="0.0"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="BeforeClass"
+                time="0.0"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="computeTotalPrice"
+                time="0.0"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="navigateToShop"
+                time="0.0"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="addProductsToCart"
+                time="0.0"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="checkActualSubTotals"
+                time="0.0"
+                classname="test.testCartPage">
+            </testcase>
+            <testcase
+                name="checkActualPrices"
+                time="0.0"
+                classname="test.testCartPage">
+            </testcase>
+
+</testsuite>

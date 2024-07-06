@@ -14,7 +14,7 @@ public abstract class BaseTest {
 	@BeforeTest
 	public void beforeTest () {
 		
-		String driverPath ="C:\\\\Users\\\\malol\\\\Downloads\\\\chromedriver-win64\\\\chromedriver-win64\\\\chromedriver.exe";
+		String driverPath ="C:\\Users\\malol\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", driverPath);
 		
 		//Initialize WebDriver
